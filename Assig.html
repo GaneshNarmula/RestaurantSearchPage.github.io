@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assign.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title> restaurants Search page </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+</head>
+
+<body style="background-color: grey">
+
+    <header>
+
+        <div class="image-container">
+            <img src="img4.jpg" alt="..." />
+        </div>
+
+        <div class="header-body-selection">
+            <nav class="nav">
+                <div class="container container-nav">
+                    <div class="logo-container">
+                        <img src="Ftext.jpg" alt="..." width="55px" height="55px" />
+                    </div>
+                    <ul>
+                        <li><a href="#login">login</a></li>
+                        <li><a href="#account">Create a account</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="header-body-contain">
+                <div class="container container-header-body">
+                    <p class="header-body-contain-title"> Find the best restaurants,cafe's and bars </p>
+                    <div class="search-container">
+                        <form class="list">
+                            <input list="Restname" name="Restname" class="Restname"
+                                placeholder="Please type a location" />
+                            <!-- <i id="loco-font" class="fa-solid fa-location-dot"></i> -->
+                            <datalist id="Restname">
+                                <option value="Sarjapur road,Bengaluru"> Sarjapur road,Bengaluru</option>
+                                <option value="HSR Layout,Bengaluru"> HSR Layout,Bengaluru</option>
+                                <option value="Kormangala,Bengaluru"> Kormangala,Bengaluru</option>
+                                <option value="Jay Nagar,Bengaluru"> Jay Nagar,Bengaluru</option>
+                            </datalist>
+                        </form>
+                        <input id="search-box" type="text" class="search-box" placeholder=" search for restaurants" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="quick-search"> 
+        <div class="container container-quick-search">
+            <h3 class="quick-title"> Quick Search </h3>
+            <p class="quick-text"> Discover restaurants by type of meal </p>
+            <div class="card-container">
+                <div id="card-boder" class="card flex-row">
+                    <img src="breakfast.jpg" alt="..."  width="130px" height="130px"/>
+                    <div class="card-body">
+                        <h5> Breakfast</h5>
+                        <p> start your day with <br> exclusive bearkfast options</p>
+                    </div>
+                </div>
+                <div id="card-boder" class="card flex-row">
+                    <img src="lunch.jpg" alt="..."  width="130px" height="130px" />
+                    <div class="card-body">
+                        <h5> Lunch </h5>
+                        <p> start your day with <br> exclusive bearkfast options</p>
+                    </div>
+                </div>
+                <div id="card-boder" class="card flex-row">
+                    <img src="snacks.jpg" alt="..."  width="130px" height="130px" />
+                    <div class="card-body">
+                        <h5> Snacks </h5>
+                        <p> start your day with <br> exclusive bearkfast options</p>
+                    </div>
+                </div>
+                <div id="card-boder" class="card flex-row">
+                    <img src="dinner.jpg" alt="..."  width="130px" height="130px"/>
+                    <div class="card-body">
+                        <h5> Dinner </h5>
+                        <p> start your day with <br> exclusive bearkfast options</p>
+                    </div>
+                </div>
+                <div id="card-boder" class="card flex-row">
+                    <img src="drinks.jpg" alt="..."  width="130px" height="130px"/>
+                    <div class="card-body">
+                        <h5> Drinks </h5>
+                        <p> start your day with <br> exclusive bearkfast options</p>
+                    </div>
+                </div>
+                <div id="card-boder" class="card flex-row">
+                    <img src="nightlife.jpg" alt="..."  width="130px" height="130px"/>
+                    <div class="card-body">
+                        <h5> Nightlife </h5>
+                        <p> start your day with <br> exclusive bearkfast options</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div id="footer" class="container container-footer">
+            <div class="social">
+                <div class="social-list">
+                    <h3 class="follow-title"> Follow </h3>
+                    <div class="social-item">
+                        <a href="https://twitter.com/"><i class="fa-brands fa-twitter" style="color: #103a84;"></i></a>
+                    </div>
+                    <div class="social-item">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook" style="color: #103a84;"></i></a>
+                    </div>
+                    <div class="social-item">
+                        <a href="https://www.youtube.com/"> <i class="fa-brands fa-youtube" style="color: #103a84;"></i></a>
+                    </div>
+                </div>
+                <br>
+    
+                <div class="address">
+                    <h3 class="address-title"> Address</h3>
+                    <p class="address-text"> 1234,Street Name <br> City.AA99999</p>
+                </div>
+    
+                <div class="contacts">
+                    <h3 class="contact-title"> Contacts </h3>
+                    <p class="contact-text">
+                        " Email : xyz@gmail.com"
+                        <br>
+                        " Phone : 1234567890"
+                    </p>
+                </div>
+            </div>
+
+            <div class="form">
+                <h3 class="form-title"> Contact Us</h3>
+                <br>
+                <br>
+                <input type="text" placeholder="Name" id="name" />
+                <br>
+                <br>
+                <input type="text" placeholder="Email" id="email" />
+                <br>
+                <br>
+                <input type="tel" id="phone" name="phone" placeholder="Phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required />
+                <br>
+                <br>
+                <input type="text" placeholder="Message" id="message" />
+                <br>
+                <br>
+                <input type="submit" id="submit" />
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
